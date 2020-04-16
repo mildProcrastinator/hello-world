@@ -23,7 +23,7 @@ public class ShowLesson extends AppCompatActivity {
         Intent intent = getIntent();
         Bundle extras = intent.getExtras();
         lesson = (String) extras.get("lesson");
-        if (lesson.equals("print")) {
+        if (lesson.equals("Print Statement")) {
             setContentView(R.layout.print);
             imageView = findViewById(R.id.imageView);
             result = findViewById(R.id.output);

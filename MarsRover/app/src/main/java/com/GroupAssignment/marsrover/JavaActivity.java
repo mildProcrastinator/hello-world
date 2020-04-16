@@ -22,7 +22,7 @@ public class JavaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.java_lesson);
-        lessons.add("print");
+        lessons.add("Print Statement");
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         JavaAdapter.JavaListener listener = new JavaAdapter.JavaListener() {
             @Override
